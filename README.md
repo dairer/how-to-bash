@@ -1,9 +1,5 @@
-to do
+# Bash Scripting Tutorial
 
-- check names of sections (spelling and number oreder etc)
-- make references live links
-
-# Bash Cheat Sheet
 **Prelim**
 >* [Why bother with shell scripting?](#why-bother-with-shell-scripting)
 >* [Basics](#basics)
