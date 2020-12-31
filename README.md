@@ -94,7 +94,7 @@ Being able to write a quick script to do some data/file management or manipulati
 ---
 ### Where is bash?
 At the top of every bash scrip you need to tell the computer where bash lives.
-Fist we need to figure out where it lives, this can be done using the ```which```
+We need to figure out where it lives, this can be done using the ```which```
 command.
 
 *Note here that the `$` symbol denoted a command typed into the terminal and
@@ -107,7 +107,7 @@ This will return the location of bash on your machine.
 
 ### Creating a bash script
 
-First we need to figure out where our terminal is currently. To figure out where
+First thing we need to do is figure out what folder/directory our terminal is currently sitting in. To figure out where
 you are you can use ```pwd``` (print working directory)
 
 ```bash
@@ -125,13 +125,12 @@ line to create a new bash script. A quick way to create a file is with the
 ```touch``` command.
 
 ```bash
-$ touch myFirstBashScript.sh
+$ touch myFirstBashScript.sh # creates a file in the "working directory"
 ```
 This will create a file called myFirstBashScript.sh on the desktop.
 *Note, every shell script should be saved as a `.sh` file.*
 
 To tell your script where bash is you use ```#!``` which is read "sharp bang" or "shebang" if you're in a rush.
-Open up the empty shell file file and tell it where bash lives with the `#!` notation.
 
 > **`myFirstBashScript.sh`**
 >
@@ -310,13 +309,10 @@ Thank you
 
 ## Comparing Variables
 ---
-Often necessary to compare if two values are equal/not equal, greater than,
-less than etc.
-
-There are several ways to do this in bash.
-
+It's Often necessary to compare if two values are equal/not equal, greater than,
+less than etc. There are several ways to do this in bash.
 We can use traditionl compariston operations such as "==", ">", etc or we can use
-more "command-line-like" operations.
+more "bash" operations.
 
 ### Numeric comparison
 
