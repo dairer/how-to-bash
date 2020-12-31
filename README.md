@@ -1,6 +1,6 @@
 # Bash Scripting Tutorial
 
-**Prelim**
+**Introduction**
 >* [Why bother with shell scripting?](#why-bother-with-shell-scripting)
 >* [Basics](#basics)
 >    * [Where is bash?](#where-is-bash)
