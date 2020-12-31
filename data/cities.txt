@@ -1,0 +1,38 @@
+city, country
+Suining, China
+Debrecen, Hungary
+Meknes, Morocco
+Suez, Egypt
+Tucson (AZ), United States
+Gorgan, Iran
+Dortmund, Germany
+Petah Tiqwa, Israel
+Sevilla, Spain
+Osaka, Japan
+Caucaia, Brazil
+Ulan-Ude, Russia
+Ulhasnagar, India
+Shangqiu, China
+Bobruisk, Belarus
+Zhengzhou, China
+Coro, Venezuela
+Labé, Guinea
+Surat, India
+Huancayo, Peru
+Berezniki, Russia
+Fontana (CA), United States
+Bello, Colombia
+Khomeini shahr, Iran
+LA PAZ, Bolivia
+Garland (TX), United States
+Dire Dawa, Ethiopia
+Mangalore, India
+Radom, Poland
+Catania, Italy
+Fushun, China
+Zanjan, Iran
+Kunming, China
+Adelaide, Australia
+Ghaziabad, India
+Torino, Italy
+Vitebsk, Belarus
