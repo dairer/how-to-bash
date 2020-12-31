@@ -309,7 +309,7 @@ Thank you
 
 ## Comparing Variables
 ---
-It's Often necessary to compare if two values are equal/not equal, greater than,
+It's often necessary to compare if two values are equal/not equal, greater than,
 less than etc. There are several ways to do this in bash.
 We can use traditionl compariston operations such as "==", ">", etc or we can use
 more "bash" operations.
@@ -407,7 +407,7 @@ Hello :) contains a smiley!
 
 
 ### Combining conditions (AND/OR)
-It is possible t check of several conditions are true using logic operations.
+It is possible to check if several conditions are true using logic operations.
 
 > **`severalConditions.sh`**
 >```bash
@@ -445,7 +445,7 @@ Both -10 and -20 are negative.
 ---
 If you want to do some substantial calculations is it certainly preferable to use
 a coding language such as Python, c, etc. but it can be useful (and sometimes necessary)
-to be able to preform simple calculations in the shell.
+to be able to preform simple calculations in the terminal.
 
 ### Calculations with `expr`
 If you're happy to be limited to integer calculations you can use the command
@@ -483,8 +483,8 @@ $ ./calcWithExpr.sh
 ```
 
 ### Calculations with `let`
-Preforming calculations with `let` is much the same.
-Note that we have to store the result before we can access it.
+Preforming calculations with `let` is much the same as with `expr`
+Note that we have to store the result before we can access it when working with `let`.
 
 > **`calcWithLet.sh`**
 >```Bash
@@ -538,8 +538,9 @@ The double parenthesis affords us some additional operations such as
 ```
 
 If you're familiar with c/c++ then this method will feel much more natural.
-The operations are pretty much the same as c/c++ operations
+The operations are pretty much the same as c/c++ operations.
 
+Example:
 > **`calcWithAritExpr.sh`**
 >```bash
 >#! /bin/bash
@@ -781,7 +782,7 @@ $ echo ${bigArray[@]}
 here an array 1 2 3 my new elements 32 412
 ```
 
-Lets see an example of all that in a script
+Lets see an example of all that in a script:
 
 >**`arrayExample.sh`**
 >```bash
@@ -1060,7 +1061,7 @@ the manual press `q`.
 
 ### grep
 
-grep allows us to search for specific patterns in text. 
+`grep` allows us to search for specific patterns in text. 
 For example we can filter a directory of files to ones who's names satisfy some structure or searching for lines in a text file etc. 
 
 The general structure of a grep command is as follows:
@@ -1125,7 +1126,7 @@ This return all strings that do not have the work "states".
 
 For grep to be useful for us we need to know some regex and understand the piping function.
 
-#### grep with regex:
+#### grep with regex
 See [regex](#regex) for a quick explanation.
 ```
 # countries that start with A or B
@@ -1150,7 +1151,7 @@ LA PAZ, Bolivia
 ...
 ```
 
-#### grep with pipe:
+#### grep with pipe
 See [piping](#piping) for a quick explanation.
  
  We can search for patterns in the output of other commands.
@@ -1195,10 +1196,10 @@ x?          0 or 1 "x"s
 \w          any word 
 \d          any digit 
 \s          white space
-^x	    starts with "x"
-x$	    ends with "x"
-^x$	    string that matchs "x"
-x	    string that contains "x"
+^x	         starts with "x"
+x$	         ends with "x"
+^x$	        string that matchs "x"
+x	          string that contains "x"
 ```
 
 Examples
@@ -1213,7 +1214,7 @@ Any line with a 10 digit number
 [0-9]{10}
 ```
 
-See `grep` for further examples.
+See [`grep`](#grep-with-regex) for further examples.
 
 
 ## piping
@@ -1228,7 +1229,7 @@ For example, we can list the contents of the current directory, look at the top 
 $ ls | head -5 | sort
 ```
 
-See `grep` for more examples.
+See [`grep`](#grep-with-pipe) for more examples.
 
 
 ## Conditional statements
@@ -1334,14 +1335,14 @@ why didnt you enter your name? :(
 ---
 ### for loops
 
-The general structire of a for loop in bash is as follows:
+The general structure of a for loop in bash is as follows:
 
 ```bash
 for itterator in iterable; do
     # do something
 done
 ```
-This is very useful for itterating through files.
+This is very useful for itterating through elements such as files.
 Itterables for for loops in bash are numerous.
 
 Some examples:
@@ -1426,7 +1427,7 @@ $ ./forLoopCStyle.sh
 
 ### While loops
 
-The general structire of a while loop in bash is as follows:
+The general structure of a while loop in bash is as follows:
 
 ```bash
 while [ condition ]; do
