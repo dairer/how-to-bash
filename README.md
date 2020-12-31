@@ -103,13 +103,9 @@ lines without this symbol are the outputs of the command*
 $ which bash
 /bin/bash
 ```
-
+This will return the location of bash on your machine.
 
 ### Creating a bash script
-This will return the location of bash on your machine. To tell your script where
-bash is you use ```#!``` which is read "sharp bang" or "shebang" if you're in a rush.
-First things first, figure out where your bash shell is living.
-
 
 First we need to figure out where our terminal is currently. To figure out where
 you are you can use ```pwd``` (print working directory)
@@ -123,6 +119,7 @@ We can change to a more sensible directory (folder) using the `cd` command.
 ```bash
 $ cd Desktop/
 ```
+
 Now our terminal is in the Desktop directory and we can use the command
 line to create a new bash script. A quick way to create a file is with the
 ```touch``` command.
@@ -130,11 +127,11 @@ line to create a new bash script. A quick way to create a file is with the
 ```bash
 $ touch myFirstBashScript.sh
 ```
-
 This will create a file called myFirstBashScript.sh on the desktop.
 *Note, every shell script should be saved as a `.sh` file.*
 
-Open up this empty file and tell it where bash lives with the `#!` notation.
+To tell your script where bash is you use ```#!``` which is read "sharp bang" or "shebang" if you're in a rush.
+Open up the empty shell file file and tell it where bash lives with the `#!` notation.
 
 > **`myFirstBashScript.sh`**
 >
@@ -167,8 +164,6 @@ Now the script is executable we can execute it, we do this using `./scriptName.s
 $ ./myFirstBashScript.sh
 hello world :)
 ```
-
-
 
 Bonus: If you're curious to see what other shell syntaxes are available to you:
 ```bash
