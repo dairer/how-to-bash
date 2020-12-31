@@ -1135,7 +1135,7 @@ This return all strings that do not have the work "states".
 For grep to be useful for us we need to know some regex and understand the piping function.
 
 #### grep with regex:
-See [regex]() for a quick explanation.
+See [regex](#regex) for a quick explanation.
 ```
 # countries that start with A or B
 $ grep ", [AB]" data/cities.txt
@@ -1160,7 +1160,7 @@ LA PAZ, Bolivia
 ```
 
 #### grep with pipe:
-See [piping]() for a quick explanation.
+See [piping](#piping) for a quick explanation.
  
  We can search for patterns in the output of other commands.
 
