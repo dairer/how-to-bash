@@ -559,7 +559,7 @@ Example:
 ># but we can have a look at the remainder term
 >echo "$VAR_1 modulo $VAR_2 = $((VAR_1 % VAR_2))"
 >
-># but we can have a look at the remainder term
+># we can calculate exponents
 >echo "$VAR_1 rased to the power of $VAR_2 = $((VAR_1 ** VAR_2))"
 >
 >echo "$VAR_1 plus 5 = $((VAR_1+=5))"
