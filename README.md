@@ -277,7 +277,6 @@ We can do this on one line using `read`'s prompt option:
 >#!/bin/bash
 ># prompt user for input
 >read -p "Please enter your name:" NAME
->read NAME
 >echo "hello $NAME"
 >```
 
