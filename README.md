@@ -66,6 +66,7 @@
 >* [Aliases](#aliases)
 
 
+[**Miscellaneous useful examples**](#miscellaneous-useful-examples)
 
 
 
@@ -1853,6 +1854,25 @@ Now I just need to recompile the `.bash_profile` script or relaunch the terminal
 ```bash
 $ source ~/.bash_profile
 ```
+
+
+
+
+## Miscellaneous useful examples
+
+### Search for a string recursively
+
+The first command here will search all files in the current directory and sub directories and return every line that is finds the specified string.
+The `n` option tells grep to include the line number of the mathes.
+
+The second line then opens the file that the string was observed in and places your curser on the specified line in vim. (just specify the line where the string was observedm, line 128 in this example)
+
+```bash
+$ grep -rn "string i want" .
+./some_file.txt:128:    balh blah this string i want blah
+$ vim +128 some_file.txt
+```
+
 
 <p align="center">
   <img src="/figs/end.gif" />
