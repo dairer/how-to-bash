@@ -1874,6 +1874,3 @@ $ vim +128 some_file.txt
 ```
 
 
-<p align="center">
-  <img src="/figs/end.gif" />
-</p>
