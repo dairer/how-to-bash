@@ -176,13 +176,13 @@ $ cat /etc/shells
 /bin/zsh
 ```
 
-You can check what shell your command-line is using as follows:
+You can check what shell your command line is using as follows:
 ```bash
 $ echo $SHELL
 /bin/bash
 ```
 
-You can change your default shell to any shell syntax in `/etc/shells as follows:
+You can change your default shell to any shell syntax in `/etc/shells` as follows:
 ```bash
 $ chsh -s /bin/bash
 ```
