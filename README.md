@@ -1884,4 +1884,8 @@ $ grep -rn "string i want" .
 $ vim +128 some_file.txt
 ```
 
-
+Move/delete/... all files in the current directory and sub-directories that match some pattern.
+This example copies all files with "dog" in the file name to a new folder called "dog_folder"
+```bash
+$ cp `find . -regex '.*dogs.*'` dog_folder/
+```
