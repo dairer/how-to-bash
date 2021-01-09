@@ -1871,8 +1871,7 @@ $ source ~/.bash_profile
 
 ## Miscellaneous useful examples
 
-### Search for a string recursively
-
+### Search for a string in any file in working directory and sub-direcrories 
 The first command here will search all files in the current directory and sub directories and return every line that is finds the specified string.
 The `n` option tells grep to include the line number of the mathes.
 
@@ -1884,6 +1883,7 @@ $ grep -rn "string i want" .
 $ vim +128 some_file.txt
 ```
 
+### Work on files that match a pattern
 Move/delete/... all files in the current directory and sub-directories that match some pattern.
 This example copies all files with "dog" in the file name to a new folder called "dog_folder"
 ```bash
