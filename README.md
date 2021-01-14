@@ -1873,9 +1873,9 @@ $ source ~/.bash_profile
 
 ### Search for a string in any file in working directory and sub-direcrories 
 The first command here will search all files in the current directory and sub directories and return every line that is finds the specified string.
-The `n` option tells grep to include the line number of the mathes.
+The `n` option tells grep to include the line number of the matches.
 
-The second line then opens the file that the string was observed in and places your curser on the specified line in vim. (just specify the line where the string was observedm, line 128 in this example)
+The second line then opens the file that the string was observed in and places your curser on the specified line in vim. (just specify the line where the string was observed, line 128 in this example)
 
 ```bash
 $ grep -rn "string i want" .
