@@ -1889,3 +1889,9 @@ This example copies all files with "dog" in the file name to a new folder called
 ```bash
 $ cp `find . -regex '.*dogs.*'` dog_folder/
 ```
+
+### Find a file hidden somewhere on your computer
+```bash
+find . | grep "this_file.txt'
+```
+
